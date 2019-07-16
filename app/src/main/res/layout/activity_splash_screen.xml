@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgc"
+    android:orientation="vertical"
+    tools:context="com.example.anoop.mymap.SplashScreen"
+    android:layout_gravity="center_vertical|center_horizontal|center"
+    >
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="30dp"
+        android:text="N H L"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:id="@+id/text" />
+
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        app:srcCompat="@drawable/hospital"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:text="version 1.0"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:id="@+id/text1" />
+</LinearLayout>
